@@ -12,7 +12,15 @@ lazyloading in simplistic way.
 Call:
 
 ```bash
-npm install
+npm install for backend dependecies
+```
+and Call:
+```bash
+bower install for frontend dependecies
+```
+To run the app:
+```bash
+ npm start
 ```
 
 **To setup repository with documentation**
