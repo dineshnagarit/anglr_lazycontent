@@ -1,0 +1,73 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+
+.sidebar {
+    position : absolute;
+    top : 43px;
+    left : -160px;
+    transition : 100ms left;
+    height: 100%;
+    min-height: 100%;
+}
+#navigation-toggle {
+        position : absolute;
+        left : 160px;
+        background : rgba(3,159,244,.95);
+        color : white;
+        text-decoration : none;
+        padding : 10px;
+        top:1px;
+}
+.show {
+    left : 0;
+}
+.navigation {
+    list-style : none;
+    padding : 0;
+    margin : 0;
+}
+
+.navigation-items a {
+    display : block;
+    background-color : #444;
+    color : white;
+    line-height : 2em;
+    text-decoration : none;
+    padding : 10px 30px;
+    width : 100px;
+
+}
+.navigation-items a:hover {
+    background-color : #222;
+}
+
+
