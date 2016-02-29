@@ -9,14 +9,14 @@ lazyloading in simplistic way.
 
 **To install all dev dependencies**
 
-Call:
+Call [backend dependencies]:
 
 ```bash
-npm install for backend dependecies
+npm install
 ```
-and Call:
+and Call [frontend dependencies]:
 ```bash
-bower install for frontend dependecies
+bower install
 ```
 To run the app:
 ```bash
